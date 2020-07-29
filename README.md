@@ -7,4 +7,4 @@ Ademas de poseer la capacidad de configurar la cantidad de personas dentro del l
 
 ## Diagrama
 
-Aca el diagrama
+![./recursos/diagrama.png](https://github.com/pacugliari/TrabajoPracticoMaquinaDeEstados_ContadorDePersonas/blob/master/recursos/diagrama.png)
