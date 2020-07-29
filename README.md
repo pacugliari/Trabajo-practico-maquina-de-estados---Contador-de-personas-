@@ -8,3 +8,9 @@ Ademas de poseer la capacidad de configurar la cantidad de personas dentro del l
 ## Diagrama
 
 ![./recursos/diagrama.png](https://github.com/pacugliari/TrabajoPracticoMaquinaDeEstados_ContadorDePersonas/blob/master/recursos/diagrama.png)
+
+ - __seteo__: Bandera de fin de inicialización
+ - __contador__: Lleva la cuenta de las personas dentro del local
+ - __s1__: Sensor puerta de entrada,vale 1 si entra una persona 0 caso contrario
+ - __s2__: Sensor puerta de salida,vale 1 si entra una persona 0 caso contrario
+ - __limiteMax__: Limite maximo configurable permitido de personas dentro del local
