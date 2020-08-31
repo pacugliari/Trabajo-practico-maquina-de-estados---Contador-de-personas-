@@ -42,7 +42,10 @@ personas_t seteo(char* nombreArchivo){
 								configuracion.limiteMaximoPersonas = atoi(valor);
 							break;
 							case 1:
-								configuracion.contador = atoi(valor);
+								if (configuracion.limiteMaximoPersonas < atoi(valor))
+									configuracion.contador = configuracion.limiteMaximoPersonas;
+								else
+									configuracion.contador = atoi(valor);
 							break;
 						}
 					}
